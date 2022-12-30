@@ -5,6 +5,7 @@ import DashboardTable from '../Components/DashboardTable';
 import Header from '../Components/Header';
 import styled from 'styled-components';
 import { Navbar, Nav, Button, Row, Col } from 'react-bootstrap';
+import Footer from '../Components/Footer';
 const StyledStatusPage = styled.div`
 
 `;
@@ -41,6 +42,7 @@ const Status = ({ user }) => {
         </Row>
       </Container>
       </StyledStatusPage>
+      <Footer/>
     </>
   );
 };

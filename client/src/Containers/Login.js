@@ -5,6 +5,7 @@ import { connect } from 'react-redux';
 import { signup, login } from '../Redux/actions/auth.actions';
 import Header from '../Components/Header';
 import { ToastContainer } from 'react-toastify';
+import Footer from '../Components/Footer';
 
 const Login = (props) => {
   const [formData, setFormData] = useState({ email: '', password: '' });
@@ -58,6 +59,7 @@ const Login = (props) => {
           </Button>
         </Form>
       </Container>
+      <Footer/>
     </Fragment>
   );
 };

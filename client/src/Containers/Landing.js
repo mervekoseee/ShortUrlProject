@@ -3,6 +3,7 @@ import { Row, Col, Button } from 'react-bootstrap';
 import Header from '../Components/Header';
 import ShortenUrlCard from '../Components/ShortenUrlCard';
 import styled from 'styled-components';
+import Footer from '../Components/Footer';
 
 const StyledPage = styled.div`
 background-color: #dfe7fd;
@@ -71,6 +72,7 @@ const Landing = () => {
           </Row>
         </Col>
       </Row>
+      <Footer/>
      
     </>
   );
